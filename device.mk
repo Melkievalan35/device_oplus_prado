@@ -113,6 +113,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.qcom
 
+# Audio Configuration
+PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
+    android.hardware.audio@7.1-impl \
+    android.hardware.audio.effect@7.0-impl
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
@@ -122,3 +128,4 @@ $(call inherit-product, vendor/oplus/prado/prado-vendor.mk)
 
 # Hardware OPlus interfaces
 $(call inherit-product, hardware/oplus/oplus.mk)
+
