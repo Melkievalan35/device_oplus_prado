@@ -104,4 +104,3 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 include vendor/oplus/prado/BoardConfigVendor.mk
 
 # VINTF Compatibility Matrix
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vintf/framework_compatibility_matrix.xml
