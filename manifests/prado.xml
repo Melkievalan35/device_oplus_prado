@@ -3,6 +3,6 @@
     <remote name="github" fetch="[https://github.com/](https://github.com/)" />
     <project name="Melkievalan35/device_oplus_prado" path="device/oplus/prado" remote="github" revision="sixteen" />
     <project name="Melkievalan35/vendor_oplus_prado" path="vendor/oplus/prado" remote="github" revision="sixteen" />
-    <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.1" />
-    <project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="github" revision="lineage-22.1" />
+    <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-23.2" />
+    <project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="github" revision="lineage-23.2" />
 </manifest>
