@@ -9,7 +9,7 @@
 # Device Tree for OnePlus Nord CE6 (prado)
 
 ## Specifications
-- SoC: Qualcomm Snapdragon SM7675 (volcano)
+- SoC: Qualcomm Snapdragon SM7635 (volcano)
 - Kernel Architecture: Generic Kernel Image (GKI) v4 / android14-6.1 prebuilts
 - Target OS: Android 16
 - Device Codename: prado (Project ID 25861)
