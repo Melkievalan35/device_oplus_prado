@@ -15,12 +15,16 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := prado
 PRODUCT_NAME := lineage_prado
-PRODUCT_BRAND := oplus
-PRODUCT_MODEL := prado
-PRODUCT_MANUFACTURER := oplus
+PRODUCT_BRAND := OnePlus
+PRODUCT_MODEL := CPH2805
+PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="qssi_64-user 16 BP2A.250605.015 1791442415701 release-keys" \
-    BuildFingerprint=oplus/prado/prado:16/BP2A.250605.015/1791442415701:user/release-keys
+    BuildFingerprint=oplus/prado/prado:16/BP2A.250605.015/1791442415701:user/release-keys \
+    DeviceName=OP6505L1 \
+    DeviceProduct=CPH2805 \
+    SystemDevice=OP6505L1 \
+    SystemName=CPH2805
