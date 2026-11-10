@@ -1,0 +1,77 @@
+# odm.prop for OnePlus Nord CE6 (prado, project 25861, CPH2805)
+# Source: stock /odm/build.prop; only vendor/HAL-relevant properties kept.
+
+# Camera / NFC
+ro.hardware.camera=oemlayer
+oplus.software.camera.10bit=1
+ro.vendor.oplus.camera.backCamSize=50MP+2MP
+ro.vendor.oplus.camera.frontCamSize=32MP
+ro.camera.notify_nfc=1
+
+# Display
+vendor.display.disable_spec_fence=1
+vendor.display.disable_noise_layer=1
+vendor.display.disable_idle_fps_switch=1
+ro.vendor.oplus.display.allow.refresh.change=1
+ro.vendor.oplus.display.aod.auto.switch.config=1
+ro.vendor.oplus.display.cwb.display_id=0
+ro.vendor.oplus.display.cwb.postprocess=1
+ro.vendor.oplus.display.cwb.roi=1
+ro.vendor.oplus.display.cwb.aod_forbidden=1
+ro.vendor.oplus.display.cwb.ct_range=211,255,0,38
+vendor.display.force_lm_to_fb_config=1
+vendor.display.aspect_ratio_threshold=20
+vendor.display.enable_fb_scaling=1
+vendor.display.enable_hist_intr=1
+vendor.display.uir_support=1
+vendor.display.hightempaging_dbv=3070
+ro.vendor.display.sensortype=2
+vendor.oplus.display.global.dre_status=1
+vendor.manualbrightness_ltm_disable=1
+ro.oplus.display.colormode.vivid=102
+ro.oplus.display.rgb_ball_min_value=900
+ro.oplus.display.rgb_ball_max_value=1000
+ro.oplus.display.lcd_eyeprotect_module=0
+ro.vendor.oplus.hdr.uniform=1
+vendor.display.idle_time=0
+
+# Audio
+ro.oplus.audio.support.meta_audio=1
+ro.oplus.audio.support.meta_audio_voip=1
+ro.oplus.audio.support.meta_audio_soundbed=1
+ro.oplus.audio.support.reverse_in_hal=1
+ro.audio.monitorRotation=1
+ro.oplus.audio.support.LHDC_RING=true
+ro.oplus.audio.uadux.support=true
+ro.oplus.audio.odm.para=Prado_20251202_V20
+
+# Wi-Fi / connectivity
+ro.oplus.wifi.wsa=StbcMrc
+ro.oplus.wifi.wsa.disMrc=true
+ro.oplus.wifi.ull.tx_bw20=true
+ro.oplus.wifi.minidump.enable.state=1
+ro.oplus.wifi.sta.channel.version=39_5G
+ro.oplus.wifi.llm.media_boost=true
+ro.oplus.wifi.vbat.backoff.power=17
+ro.oplus.connectivity.oversea=true
+
+# Sensors
+ro.vendor.oplus.sensor.high_pwm_rgb=true
+ro.vendor.oplus.sensor.brl_receive=true
+ro.vendor.oplus.sensor.lb_algo=true
+ro.vendor.oplus.sensor.use_black_mode=true
+persist.vendor.oplus.sensor.sup_game_config_gyro=true
+vendor.dynamic_sensor.setup.timeout.ms=1600
+
+# Radio / security / misc
+ro.vendor.qti.va_odm.support=1
+ro.separate.soft=25861
+ro.vendor.product.oem=CPH2805
+ro.vendor.product.device.oem=OP6505
+ro.vendor.oplus.market.name=CPH2805
+ro.vendor.config.oplus.uniform_single_sim=2
+persist.vendor.radio.mdccbsize=164
+ro.vendor.oplus.radio.project=1
+ro.vendor.oplus.provision.pki=10
+ro.device.security.level=4
+vendor.wv.oemcrypto.debug.enable_prov40=true
